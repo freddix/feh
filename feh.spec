@@ -1,11 +1,11 @@
 Summary:	Fast image viewer/indexer/montager
 Name:		feh
-Version:	2.9.3
+Version:	2.10
 Release:	1
 License:	BSD
 Group:		X11/Applications/Graphics
 Source0:	http://feh.finalrewind.org/%{name}-%{version}.tar.bz2
-# Source0-md5:	7c6ecdc36eaf9f14a13f8cf35988da45
+# Source0-md5:	6714dedeff1db5c3593c4a27b0d9cf50
 URL:		http://feh.finalrewind.org/
 BuildRequires:	curl-devel
 BuildRequires:	giblib-devel
