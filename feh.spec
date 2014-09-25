@@ -1,11 +1,11 @@
 Summary:	Fast image viewer/indexer/montager
 Name:		feh
-Version:	2.11
+Version:	2.12
 Release:	1
 License:	BSD
 Group:		X11/Applications/Graphics
 Source0:	http://feh.finalrewind.org/%{name}-%{version}.tar.bz2
-# Source0-md5:	d7d49fb5d9c4b0ca00119401b6f5bdf6
+# Source0-md5:	da59074c2e7b68fb08f555e366f827a9
 URL:		http://feh.finalrewind.org/
 BuildRequires:	curl-devel
 BuildRequires:	giblib-devel
@@ -18,6 +18,7 @@ BuildRequires:	xorg-libXt-devel
 Requires(post,postun):	/usr/bin/gtk-update-icon-cache
 Requires(post,postun):	desktop-file-utils
 Requires(post,postun):	hicolor-icon-theme
+Requires:	imlib2-loaders
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
