@@ -1,11 +1,12 @@
+# based on PLD Linux spec git://git.pld-linux.org/packages/feh.git
 Summary:	Fast image viewer/indexer/montager
 Name:		feh
-Version:	2.12
+Version:	2.12.1
 Release:	1
 License:	BSD
 Group:		X11/Applications/Graphics
 Source0:	http://feh.finalrewind.org/%{name}-%{version}.tar.bz2
-# Source0-md5:	da59074c2e7b68fb08f555e366f827a9
+# Source0-md5:	cb56bbbab8e88663d57a69df7d87c7b1
 URL:		http://feh.finalrewind.org/
 BuildRequires:	curl-devel
 BuildRequires:	giblib-devel
